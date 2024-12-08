@@ -13,9 +13,10 @@ This Databricks notebook project automates the processing and merging of custome
 
 - Databricks workspace with appropriate permissions.
 - Access to DBFS GCP Buckets for data files.
-- **Libraries:**
-    PyDeequ and Py4J are required for performing data quality checks and are available via pip.
-    Maven: May be required for managing dependencies in Databricks environments.
+- **Required Libraries**:
+  - `PyDeequ`: For performing data quality checks.
+  - `Py4J`: Required by PySpark and PyDeequ.
+  - **Maven**: For managing dependencies in Databricks. The `deequ` library for Scala can be installed via Maven.
 
 ## Usage
 
